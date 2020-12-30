@@ -57,7 +57,7 @@ client.database.useCollection('webPage').addDoc({
 
                 client.database.useCollection('webPage').addDoc({
                     title : document.title,
-                    description : document.querySelector('meta[name="description"]').content // change this selector on your using dom element.,
+                    description : document.querySelector('meta[name="description"]').content, // change this selector on your using dom element.
                     url : window.location.href,
                     domain : window.location.hostname
                 });
