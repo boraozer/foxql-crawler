@@ -43,7 +43,7 @@ client.database.useCollection('webPage').addDoc({
 
 
             <!-- Javascripts -->
-            <script src = "https://cdn.jsdelivr.net/npm/foxql/build/foxql.min.js"></script>
+            <script src = "https://cdn.jsdelivr.net/npm/foxql@latest/build/foxql.min.js"></script>
             <script>
                 const client = new foxql.client();
                 
